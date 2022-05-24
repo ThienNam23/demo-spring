@@ -4,7 +4,7 @@ pipeline {
         stage('Clone repo') {
             steps {
                 echo 'Clone step'
-                git branch: '', url: 'https://github.com/ThienNam23/demo-spring.git'
+                git 'https://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@github.com/ThienNam23/demo-spring.git'
             }
         }
 
